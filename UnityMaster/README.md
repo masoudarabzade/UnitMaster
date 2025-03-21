@@ -37,14 +37,14 @@ Follow these steps to set up and run the UnitMaster program:
 
 First, clone the repository to your local machine:
 
-git clone https://github.com/masoudarabzade/UnitMaster.git
-cd UnitMaster
+    git clone https://github.com/masoudarabzade/UnitMaster.git
+    cd UnitMaster
 
 2. Install Dependencies
 
 Install the required Python libraries using pip:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 3. Set Up the Database
 
@@ -60,14 +60,14 @@ pip install -r requirements.txt
 
 Update the connection_string variable in the UnitMaster.py file with your SQL Server details:
 
-connection_string = r'DRIVER={SQL Server};SERVER=your_server_name;DATABASE=UnitMasterDB;Trusted_Connection=yes'
+    connection_string = r'DRIVER={SQL Server};SERVER=your_server_name;DATABASE=UnitMasterDB;Trusted_Connection=yes'
 
 Replace your_server_name with the name of your SQL Server instance.
 5. Run the Program
 
 Execute the program using Python:
 
-python UnitMaster.py
+    python UnitMaster.py
 
 How It Works
 
