@@ -1,3 +1,0 @@
-10,John,Doe,18.5
-11,Jane,Smith,16.0
-12,Alice,Johnson,13.5
